@@ -1,4 +1,4 @@
-module mod
+module github.com/brayanzv/Daily
 
 go 1.16
 
