@@ -3,8 +3,8 @@ package main
 import (
 	"log"
 
-	"github.com\brayanzv\Daily\bd"
-	"github.com\brayanzv\Daily\handlers"
+	"github.com/brayanzv/Daily/bd"
+	"github.com/brayanzv/Daily/handlers"
 )
 
 func main() {
