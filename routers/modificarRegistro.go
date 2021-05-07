@@ -5,7 +5,7 @@ import (
 	"net/http"
 
 	"github.com/brayanzv/Daily/bd"
-	"github.com/brayanzv /Daily/models"
+	"github.com/brayanzv/Daily/models"
 )
 
 /*ModificarPerfil modifica el perfil de usuario */
