@@ -6,7 +6,7 @@ import (
 	"go.mongodb.org/mongo-driver/bson/primitive"
 )
 
-type DevueloTweet struct {
+type DevuelvoTweet struct {
 	ID      primitive.ObjectID `bson: "_id" json: "_id,omitempty"`
 	UserId  string             `bson: "userID" json: "userId,omitempty"`
 	Mensaje string             `bson: "mensaje" json: "mensaje,omitempty"`
