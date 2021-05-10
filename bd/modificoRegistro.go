@@ -14,8 +14,8 @@ func ModificoRegistro(u models.Usuario, ID string) (bool, error) {
 	ctx, cancel := context.WithTimeout(context.Background(), 15*time.Second)
 	defer cancel()
 
-	db := MongoCN.Database("twittor")
-	col := db.Collection("usuarios")
+	db := MongoCN.Database("Daily")
+	col := db.Collection("users")
 
 	registro := make(map[string]interface{})
 	if len(u.Nombre) > 0 {
